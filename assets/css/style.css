@@ -75,16 +75,16 @@ ul { list-style: none; }
 }
 
 .login-with-fb,
-form { width: 100%; }
+.form { width: 100%; }
 
 .register,
-form { padding: 30px 20px; }
+.form { padding: 30px 20px; }
 
 .login-with-fb { padding: 30px 20px 20px 20px; }
 
-form .sr-only { display: none; }
+.form .sr-only { display: none; }
 
-form input {
+.form input {
     background-color: #fafafa;
     border: 1px solid #dbdbdb;
     border-radius: 3px;
@@ -94,16 +94,16 @@ form input {
     width: 100%;
 }
 
-form input::placeholder {
+.form input::placeholder {
     color: #808080;
 }
 
-form input:focus {
+.form input:focus {
     border: 1px solid #808080;
     outline: none;
 }
 
-form button {
+.form button {
     background-color: #0095f6;
     border-radius: 5px;
     color: #fff;
