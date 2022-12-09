@@ -3,7 +3,7 @@
 ## ✨  Sobre
 Clone da página de login do Instagram criada com o uso de HTML e CSS 
 
-![preview](assets/img/preview.png)
+
 
 ## 💼 Tecnologias
 Para desenvolver esse projeto utilizei as seguintes tecnologias:
