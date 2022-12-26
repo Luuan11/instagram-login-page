@@ -1,70 +1,78 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="google-site-verification" content="nrSMEdM_INTzUj4KNn1zvAJIlgsIij9vbwTfOa67FIY" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Instagram clone</title>
+    <meta name="description"content="
+    Instagram Clone feito com HTML e CSS"/>
+
+    <meta name="author" content="Luan Fernando" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Instagram Clone</title>
 </head>
 <body>
-    <main class="flex align-items-center justify-content-center">
-        <section id="mobile" class="flex">
+    <main class="container">
+        <section class="img-photo">
+            <img src="assets/img/phone-slide-1.png" alt="foto da pagina do Instagram">
         </section>
-        <section id="auth" class="flex direction-column">
-            <div class="panel login flex direction-column">
-                <h1 title="Instagram" class="flex justify-content-center">
-                    <img src="assets/img/instagram-logo.png" alt="Instagram logo" title="Instagram logo" />
-                </h1>
-                <div class="form">
-                    <label for="email" class="sr-only">Telefone, nome de usuário ou e-mail</label>
-                    <input name="email" placeholder="Telefone, nome de usuário ou e-mail" />
-
-                    <label for="password" class="sr-only">Senha</label>
-                    <input name="password" type="password" placeholder="Senha" />
-
-                    <button type="button">Entrar</button>
-                </div>
-                <div class="flex separator align-items-center">
-                    <span></span>
-                    <div class="or">OU</div>
-                    <span></span>
-                </div>
-                <div class="login-with-fb flex direction-column align-items-center">
-                    <div>
-                        <img />
-                        <a>Entrar com o facebook</a>
-                    </div>
-                    <a href="#">Esqueceu sua senha?</a>
-                </div>
-            </div>
-            <div class="panel register flex justify-content-center">
-                <p>Não tem uma conta?</p>
-                <a href="#">Cadastre-se</a>
-            </div>
-            <div class="app-download flex direction-column align-items-center">
+        <section class="form-login">
+            <form>
+                <img src="assets/img/logo.png" class="logo-instagram" alt="Instagram logotipo">
+                <input type="text" name="username" placeholder="Telefone, nome de usuário ou email">
+                <input type="password" name="passwordUser" placeholder="Senha">
+                <button type="button" disabled>Entrar</button>
+                <div class="or">OU</div>
+                <a href="#" class="login-facebook">
+                    <img src="assets/img/fb.png" alt="icone do facebook"> Entrar com o Facebook
+                </a>
+                <a href="#" class="forgot-pass">Esqueceu a senha ?</a>
+            </form>
+            <section class="signup">
+                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+            </section>
+            <section class="get-app">
                 <p>Obtenha o aplicativo.</p>
-                <div class="flex justify-content-center">
-                    <img src="assets/img/apple-button.png"      alt="Imagem com a logo da Apple Store" title="Imagem com a logo da Apple Store" />
-                    <img src="assets/img/googleplay-button.png" alt="Imagem com a logo da Google Play" title="Imagem com a logo da Google Play" />
-                </div>
-            </div>
+                <a href="#">
+                    <img src="assets/img/apple-button.png" alt="Instagram on App Store">
+                </a>
+                <a href="#">
+                    <img src="assets/img/googleplay-button.png" alt="Instagram on Google Play">
+                </a>
+            </section>
         </section>
     </main>
-    <footer>
-        <ul class="flex flex-wrap justify-content-center">
-            <li><a href="#">SOBRE</a></li>
-            <li><a href="#">AJUDA</a></li>
-            <li><a href="#">IMPRENSA</a></li>
-            <li><a href="#">API</a></li>
-            <li><a href="#">CARREIRAS</a></li>
-            <li><a href="#">PRIVACIDADE</a></li>
-            <li><a href="#">TERMOS</a></li>
-            <li><a href="#">LOCALIZAÇÃO</a></li>
-            <li><a href="#">CONTAS MAIS RELEVANTES</a></li>
-            <li><a href="#">HASHTAGS</a></li>
-            <li><a href="#">IDIOMA</a></li>
-        </ul>
-        <p class="copyright">© 2022 Instagram do Facebook</p>
+
+    <section class="clone-page">
+        <p>Essa é uma página clone do Instagram</p>
+    </section>
+
+
+    <footer class="footer">
+        <nav>
+            <a href="#">Meta</a>
+            <a href="#">Sobre</a>
+            <a href="#">Blog</a>
+            <a href="#">Carreiras</a>
+            <a href="#">Ajuda</a>
+            <a href="#">API</a>
+            <a href="#">Privacidade</a>
+            <a href="#">Termos</a>
+            <a href="#">Principais contas</a>
+            <a href="#">Hastags</a>
+            <a href="#">Localizações</a>
+            <a href="#">Instagram Lite</a>
+            <a href="#">Carregamento de contatos e não usuários</a> 
+        </nav>
+        <div class="copy">
+            <span>Português (Brasil)</span>
+            <span>© 2022 Instagram from Meta</span>
+        </div>
     </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

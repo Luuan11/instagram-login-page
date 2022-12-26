@@ -1,0 +1,1 @@
+alert('This is just a instagram clone page | Isso é apenas um clone da pagina do Instagram');
