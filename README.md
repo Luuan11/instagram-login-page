@@ -6,6 +6,9 @@ Clone da página de login do Instagram criada com o uso de HTML e CSS
 
 ![preview](https://user-images.githubusercontent.com/79935555/209581675-24f63c5f-43c0-4b3b-b2a5-b2ab746581f3.png)
 
+## 🖥️ Github Pages
+Removi do github pages
+
 ## 💼 Tecnologias
 Para desenvolver esse projeto utilizei as seguintes tecnologias:
 
