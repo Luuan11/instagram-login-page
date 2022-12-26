@@ -1,12 +1,10 @@
 # Instagram-login-page
 
-## ✨  Sobre
+## ✨ Sobre
 Clone da página de login do Instagram criada com o uso de HTML e CSS 
+> Não é responsivo
 
-![image](https://user-images.githubusercontent.com/79935555/208335745-5ef0c3ef-7777-475f-8cab-7fd3cd687d64.png)
-
-## Alerta
-Devido um série de alertas de "Phishing sobre a google" alterei o código diversas vezes
+![preview](https://user-images.githubusercontent.com/79935555/209581675-24f63c5f-43c0-4b3b-b2a5-b2ab746581f3.png)
 
 ## 💼 Tecnologias
 Para desenvolver esse projeto utilizei as seguintes tecnologias:
