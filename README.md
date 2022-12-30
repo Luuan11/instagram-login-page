@@ -9,11 +9,18 @@ Clone da página de login do Instagram criada com o uso de HTML e CSS
 ## 🖥️ Github Pages
 Removi do github pages
 
+
+
 ## 💼 Tecnologias
 Para desenvolver esse projeto utilizei as seguintes tecnologias:
 
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
+
+## Clone
+
+    - Clonar repositorio 
+    $ git clone https://github.com/Luuan11/instagram-login-page.git
 
 ---
 
